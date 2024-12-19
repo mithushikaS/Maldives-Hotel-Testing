@@ -1,0 +1,60 @@
+/* LocationAndGettingHere.css */
+.location-container {
+    background-color: #f9f9f9;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .location-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .location-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .map-container {
+    flex: 1;
+  }
+  
+  .location-details {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .location-details p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .location-details h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #555;
+  }
+  
+  .location-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .location-details ul li {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Responsive Styling */
+  @media (min-width: 768px) {
+    .location-content {
+      flex-direction: row;
+    }
+  }
+  
